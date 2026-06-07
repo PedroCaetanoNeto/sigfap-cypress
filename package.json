@@ -2,11 +2,30 @@
 	"packageManager": "pnpm@11.1.2+sha512.415a1cc25974731e75455c1468371be74c5aa5fb7621b50d4056d222451609f11412f23fd602e6169f1e060466641f798597e1be961a10688836a67b16569499",
 	"devDependencies": {
 		"change-case": "^5.4.4",
-		"cypress": "^15.15.0",
+		"cypress": "^15.16.0",
 		"remove-accents": "^0.5.0",
 		"typescript": "^6.0.3"
 	},
 	"dependencies": {
 		"cypress-real-events": "^1.15.0"
-	}
+	},
+	"name": "sigfap-cypress",
+	"version": "1.0.0",
+	"description": "Para a realização do trabalho, serão necessários conhecimentos prévios e a instalação de algumas ferramentas, listadas abaixo.",
+	"main": "cypress.config.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PedroCaetanoNeto/sigfap-cypress.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/PedroCaetanoNeto/sigfap-cypress/issues"
+	},
+	"homepage": "https://github.com/PedroCaetanoNeto/sigfap-cypress#readme"
 }

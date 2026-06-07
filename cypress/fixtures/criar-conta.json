@@ -1,9 +1,32 @@
 {
-  "nome": "João Neves Teste",
+  "nome": "Pedro Equipe Debian",
   "dataNascimento": "15/04/1987",
   "sexo": "Masculino",
-  "email": "joao.neves@sig.com",
-  "cpf": "30696436043",
-  "senha": "@Dev12345",
-  "senhaConfirmar": "@Dev12345"
+  "email": "pedro.equipe@sig.com",
+  "cpf": "05688176130",
+  "senha": "@Dev45678",
+  "senhaConfirmar": "@Dev45678",
+  "cep": "79.900-000",
+  "bairro": "Universitário",
+  "logradouro": "Teste",
+  "estado": "Mato Grosso do Sul",
+  "numero": "480",
+  "municipio": "  ",
+  "complemento": "Casa Teste",
+  
+  "instituicao":"FUNDA/Fundação",
+  "unidade" : "UFMS",
+  "sigla": "MS",
+  "escolaridade": "Ensino Médio",
+  "lattes": "https:teste-curriculo.com/pedro.equipe",
+  "linkedin":"https:testelinkedin.com/pedro.equipe",
+
+  "vinculo":"CLT",
+  "dataInicio":"12/08/2012",
+  "regimeTrabalho": "Tempo Integral",
+  "funcao": "Analista de Sistemas",
+  "inicioFuncao":"06/06/2026",
+
+  "anexo":"Documento de identificação com foto"
+
 }
