@@ -2,16 +2,13 @@ describe('Atividade 2 - Fluxo de Submissão de Proposta (SIGFAP)', () => {
 
   // Carrega os dados da fixture antes de iniciar os testes
   beforeEach(() => {
-    cy.fixture('submeter-proposta.json').as('dadosProposta');
+    cy.fixture('submeter-proposta.json').as('dados');
     cy.visit('/');
     
     // O usuário faz login no sistema (Passo 1 do fluxo)
-    cy.get('@dadosProposta').then((dados: any) => {
-      cy.get('[data-cy="input-login"]').type(dados.usuario.login);
-      cy.get('[data-cy="input-password"]').type(dados.usuario.senha);
-      cy.get('[data-cy="btn-entrar"]').click();
+    cy.get('@dados').then((dados: any) => {
+      cy.typeLogin(dados.email, dados.senha);
     });
-  });
 
   it('Seção Caracterização - Deve acessar o edital e iniciar a proposta', () => {
     // Navega até os editais abertos (Passo 2)
@@ -95,4 +92,5 @@ describe('Atividade 2 - Fluxo de Submissão de Proposta (SIGFAP)', () => {
       .should('be.visible')
       .and('contain.text', 'Proposta submetida com sucesso');
   });
+});
 });

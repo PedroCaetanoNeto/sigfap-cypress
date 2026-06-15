@@ -24,9 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("typeLogin", (username, password) => {
+Cypress.Commands.add("typeLogin", (username : string , password : string) => {
   cy.visit("/");
   cy.get('[data-cy="email"]').type(username);
   cy.get('[data-cy="senha"]').type(password);
-  cy.get('[data-cy="loginButton"]').click(); //Botão Acessar da página principal
+  cy.get('[data-cy="loginButton"]').click();//Botão Acessar da página principal
 });

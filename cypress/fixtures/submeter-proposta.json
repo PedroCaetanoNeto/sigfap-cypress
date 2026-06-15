@@ -1,22 +1,25 @@
 {
-  "usuario": {
-    "login": "pesquisador@ufms.br",
-    "senha": "SenhaSegura2026"
-  },
-  "editalAlvo": "Edital 2026-0001 Sig Cypress",
-  "caracterizacao": {
-    "titulo": "Desenvolvimento de Plataforma de IA para Gestão Pública",
-    "resumo": "Este projeto propõe uma arquitetura baseada em LLMs para automação de processos.",
-    "palavrasChave": "Inteligência Artificial, Engenharia de Software, Inovação"
-  },
-  "coordenacao": {
-    "nome": "Professor Orientador LEDES",
-    "siape": "1234567",
-    "regime": "Dedicação Exclusiva"
-  },
-  "apresentacao": {
-    "introducao": "A necessidade de modernização tecnológica das FAPs...",
-    "objetivos": "Desenvolver e validar o módulo de editais dinâmicos.",
-    "metodologia": "Aplicação de metodologias ágeis e testes automatizados com Cypress."
-  }
+    "email": "pedro.equipe@sig.com",
+    "senha": "@Dev45678",
+    "tedialNome":" Edital 06/2026: Teste",
+    "pergunta33":"Esse texto é um texte zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!!!!!!!!!11",
+    "pergunta34":"Esse texto é um teste sobre a proposta de edital !!sadfsdmdpiamslmxcemfçpewmflpmczv",
+    "pergunta36":"Esse texto é um teste sobre a proposta de edital !!Esse texto é um teste sobre a proposta de edital",
+    "pergunta38":4,
+    "pergunta39":1,
+    "pergunta40":2,
+    "ativividadeTitulo": "Esse é o nome da atividade de teste !!! HAHAHA",
+    "descricao":"Esse é a descricao da atividade de teste !!! HAHAHA para a proposta de edital !! " ,
+    "mesInicio":"4°",
+    "cargaHoraria":"4 hora",
+    "duracao":"1 mês",
+    "pais":"Brasil",
+    "estadoDiaria":"Mato Grosso do Sul",
+    "municipioDiaria":"Campo Grande",
+    "mes":"1°",
+    "numeroDiaria":"10",
+    "custoDiaria":"100000",
+    "justificativa": "Essa é a justificativa para diárias que será utilzada  para a proposta de edital !!"
+
+
 }

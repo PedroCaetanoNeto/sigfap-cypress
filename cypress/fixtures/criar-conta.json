@@ -27,6 +27,16 @@
   "funcao": "Analista de Sistemas",
   "inicioFuncao":"06/06/2026",
 
-  "anexo":"Documento de identificação com foto"
+  "anexo":"Documento de identificação com foto",
+
+  "editalNome":" Edital 06/2026: Teste",
+  "grandeArea":"Engenharias",
+  "areaId":"Engenharia Civil",
+  "subArea": "Construção Civil",
+  "especialidade":"Processos Construtivos",
+  "pergunta31":"Esse texto é um teste sobre a equipe técnica, que irá compor a proposta de edital !! ",
+  "pergunta32": "21/10/2026",
+  "estado1": "Mato Grosso do Sul",
+  "cidade1": "Campo Grande"
 
 }
