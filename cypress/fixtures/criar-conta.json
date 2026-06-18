@@ -11,7 +11,7 @@
   "logradouro": "Teste",
   "estado": "Mato Grosso do Sul",
   "numero": "480",
-  "municipio": "  ",
+  "municipio": "Campo Grande",
   "complemento": "Casa Teste",
   
   "instituicao":"FUNDA/Fundação",
@@ -20,6 +20,12 @@
   "escolaridade": "Ensino Médio",
   "lattes": "https:teste-curriculo.com/pedro.equipe",
   "linkedin":"https:testelinkedin.com/pedro.equipe",
+  "grandeAreaConhecimento":"Engenharias",
+  "area":"Engenharia Civil",
+  "subAreaConhecimento":"Construção Civil",
+  "especialidadeId":"Materiais e Componentes de Construção",
+
+
 
   "vinculo":"CLT",
   "dataInicio":"12/08/2012",
